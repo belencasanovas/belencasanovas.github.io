@@ -2,25 +2,69 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Portfolio - Belén Casanovas</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <title>Belén Casanovas - Journalist</title>
+      <link rel="stylesheet" href="Styles/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
   </head>
-
   <body>
+    <div class="encabezado">
+    <h1>hi. my name is <br> <span style="color:#ff7473"> belén casanovas.</span>
+      <br> i'm a <span style="color:#72e4af"> journalist. </span> </br></h1>
+    </div>
+    <div class="iconos">
+      <img class="imagen"src="Pictures/cualidades.png" align="center" width="100%">
+    </div>
     <div class="wrapper">
-      <img width="100%" src="Pictures/fotobelen.jpg" alt="Belen Casanovas" title="Belen Casanovas Babiloni">
-      <h1>Belén Casanovas</h1>
-      <h3>Periodista</h3>
-      <p>Mensaje de introducción</p>
-      <h3>Puedes encontrarme en:</h3>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/bel%C3%A9n-casanovas/">Linkedin</a>
-        </li>
-        <li>
-          <a href="https://twitter.com/BCasanovas">Twitter</a>
-        </li>
-      </ul>
- </div>
+      <h3>
+      About me.
+      </h3>
+        <p>
+        Graduated in Journalism. Master in Data Journalism and Visualization. After working in a different fields of communication, data journalism is the branch where I want to develop profesionally.
+        </p>
+    </div>
+        <br>
+        <div class="final">
+        <br>
+      <h3 class="titulo-formulario">
+      Contact me.
+      </h3>
+      <form>
+        <label>Name</label>
+          <br>
+          <br>
+        <input type="text" id="name" name="name" size="40" maxlength="35">
+          <br>
+          <br>
+        <label>Email</label>
+          <br>
+          <br>
+        <input type="text" id="email" name="email" size="40" maxlength="15">
+          <br>
+          <br>
+        <label>Message</label>
+        <br>
+        <br>
+        <textarea type="text" rows="10" cols="42"></textarea>
+          <br>
+          <br>
+        <label for="country">Select your country </label>
+          <select id="country">
+            <option>Spain</option>
+            <option>England</option>
+            <option>France</option>
+            <option>Germany</option>
+            <option>Italy</option>
+          </select>
+          <br>
+          <br>
+        <button class="boton "type="submit">Send</button>
+    </form>
   </body>
+  </div>
+  <div class="copy">
+  <footer>
+    <br>@Belén Casanovas. 2019
+  </footer>
+</div>
 </html>
