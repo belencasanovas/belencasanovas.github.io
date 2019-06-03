@@ -1,0 +1,27 @@
+body {
+  margin: 0px
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 768px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+img {
+  width:100%
+}
+h1,h3 {
+  font-family: fantasy;
+}
+h1 {
+  color: green;
+}
+p{
+  text-align:center;
+}
+
+@media (max-width: 700px) {
+  h1,h3{
+  font-family:sans-serif;
+  color:blue
+}
