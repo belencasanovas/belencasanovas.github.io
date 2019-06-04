@@ -8,6 +8,11 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.wrapperlegal {
+  width: :100%;
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
 
 .iconos {
   margin-top: 100px;
@@ -21,9 +26,9 @@ body {
 }
 
 h1 {
-  font-size:80px;
+  font-size:35px;
   font-family: 'Nixie One', cursive;
-  margin: 150px;
+  margin: 50px;
 
 }
 
@@ -34,10 +39,10 @@ h3 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Cutive Mono', monospace;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 100px;
+  margin-right: 100px;
   text-align: center;
 
 }
@@ -92,5 +97,16 @@ form {
   font-family: 'Cutive Mono', monospace;
 }
 
-
+@media (min-width: 768px) {
+  h1 {
+    font-size:80px;
+    font-family: 'Nixie One', cursive;
+    margin: 150px;
+}
+p {
+  font-size: 25px;
+  font-family: 'Cutive Mono', monospace;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: center;
 }
